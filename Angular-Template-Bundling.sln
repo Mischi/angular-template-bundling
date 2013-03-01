@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularTemplateBundling", "AngularTemplateBundling\AngularTemplateBundling.csproj", "{FF3AA3FB-C8C8-427B-BF3C-DFDBA1B5C6DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{7B1C31D8-55C0-4EDC-BAC8-54502D691E9F}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularTemplateBundling.Demo", "AngularTemplateBundling.Demo\AngularTemplateBundling.Demo.csproj", "{C39771DC-91A1-4F57-A753-5FE4855D4584}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF3AA3FB-C8C8-427B-BF3C-DFDBA1B5C6DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF3AA3FB-C8C8-427B-BF3C-DFDBA1B5C6DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF3AA3FB-C8C8-427B-BF3C-DFDBA1B5C6DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF3AA3FB-C8C8-427B-BF3C-DFDBA1B5C6DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C39771DC-91A1-4F57-A753-5FE4855D4584}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C39771DC-91A1-4F57-A753-5FE4855D4584}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C39771DC-91A1-4F57-A753-5FE4855D4584}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C39771DC-91A1-4F57-A753-5FE4855D4584}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

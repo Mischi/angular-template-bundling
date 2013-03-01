@@ -1,0 +1,17 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html ng-app="template-bundle-demo">
+<head>
+    <title>Index</title>
+    @Styles.Render("~/css/app")
+</head>
+<body>
+    <div ng-view></div>
+
+    @Scripts.Render("~/js/app")
+    <script src="@Scripts.Url("~/js/tmpl")" type="text/javascript"></script>
+</body>
+</html>
